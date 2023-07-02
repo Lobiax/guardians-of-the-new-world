@@ -34,6 +34,10 @@ h2 {
     font-family: Libre Baskerville, serif, sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
+
 #home-image {
     background: url(../images/shutterstock_2209508697\ \(1\).jpg) no-repeat center center;
     background-size: cover;
@@ -44,6 +48,9 @@ h2 {
 #about-us {
     width: 50%;
     font-size: 120%;
+    float: left;
+    padding-right: 25px;
+    box-sizing: border-box;
 
 }
 
@@ -52,5 +59,15 @@ p {
 }
 
 .active {
-    text-decoration: underline; 
+    text-decoration: underline;
+}
+
+#location {
+    width: 50%;
+    font-size: 120%;
+    float: right;
+    padding-left: 25px;
+    box-sizing: border-box;
+
+
 }
