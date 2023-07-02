@@ -47,15 +47,17 @@ h2 {
 
 #about-us {
     width: 50%;
+    height: 580.69px;
     font-size: 120%;
     float: left;
-    padding-right: 25px;
+    padding-right: 50px;
     box-sizing: border-box;
 
 }
 
 p {
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
 }
 
 .active {
@@ -66,8 +68,11 @@ p {
     width: 50%;
     font-size: 120%;
     float: right;
-    padding-left: 25px;
+    padding-left: 100px;
     box-sizing: border-box;
+}
 
-
+#social-media-footer {
+    text-align: center;
+    float: center;
 }
