@@ -50,3 +50,7 @@ h2 {
 p {
     font-family: 'Work Sans', sans-serif;
 }
+
+.active {
+    text-decoration: underline; 
+}
