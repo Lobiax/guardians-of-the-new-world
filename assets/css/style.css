@@ -64,6 +64,12 @@ p {
     text-align: center;
 }
 
+p a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
 .active {
     text-decoration: underline;
 }
@@ -107,6 +113,7 @@ footer i {
 
 .sign-up-form {
     width: 100%;
+
 
 }
 
