@@ -46,6 +46,7 @@ h2 {
     width: 100%;
     height: 55vh;
 
+
 }
 
 #about-us {
@@ -113,8 +114,8 @@ footer i {
 
 .sign-up-form {
     width: 100%;
-
-
+    height: 45vh;
+    background-color: rgba(148, 182, 165, 0.3)
 }
 
 i {
@@ -128,4 +129,15 @@ iframe {
 
 .home-organizer {
     height: 45vh;
+}
+
+#gallery-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#gallery-photos img {
+    width: 100%;
 }
