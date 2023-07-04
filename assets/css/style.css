@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Work+Sans:wght@300&display=swap');
 
+html,
+body {
+    min-height: 100%;
+}
+
 /* Header and Nav bar */
 
 #logo {
@@ -110,6 +115,7 @@ iframe {
     text-align: center;
     font-size: 150%;
     background-color: #6F8D8Fff;
+    margin-top: auto;
 
 }
 
@@ -150,7 +156,7 @@ footer ul {
 #gallery-photos {
     clear: both;
     line-height: 0;
-    column-count: 3;
+    column-count: 2;
     column-gap: 0;
 }
 
@@ -179,6 +185,15 @@ footer ul {
     }
 
 
+}
+
+@media screen and (max-width: 1000px) {
+    #gallery-photos {
+        clear: both;
+        line-height: 0;
+        column-count: 1;
+        column-gap: 0;
+    }
 }
 
 @media screen and (max-width: 850px) {
