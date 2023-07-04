@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Work+Sans:wght@300&display=swap');
 
+/* Header and Nav bar */
+
 #logo {
 
     font-size: 280%;
@@ -14,6 +16,10 @@
     margin-right: 50px;
     font-size: 150%;
     font-family: Libre Baskerville, serif, sans-serif;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 li {
@@ -31,6 +37,8 @@ header a {
     color: inherit
 }
 
+/* Heading styles */
+
 h1,
 h2 {
     font-family: Libre Baskerville, serif, sans-serif;
@@ -40,14 +48,16 @@ h2 {
     text-align: center;
 }
 
+/* Home image */
+
 #home-image {
     background: url(../images/shutterstock_2209508697\ \(1\).jpg) center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 55vh;
-
-
 }
+
+/* About and Location sections */
 
 #about-us {
     width: 50%;
@@ -56,8 +66,19 @@ h2 {
     padding-left: 20px;
     padding-right: 50px;
     box-sizing: border-box;
+}
 
+#location {
+    width: 50%;
+    font-size: 120%;
+    float: right;
+    padding-left: 25px;
+    box-sizing: border-box;
 
+}
+
+.home-organizer {
+    height: 45vh;
 }
 
 p {
@@ -71,23 +92,14 @@ p a {
     color: inherit;
 }
 
-.active {
-    text-decoration: underline;
+/* Map */
+
+iframe {
+    width: 100%;
+    height: 25vh;
 }
 
-footer i {
-    color: #0C0A15ff;
-
-}
-
-#location {
-    width: 50%;
-    font-size: 120%;
-    float: right;
-    padding-left: 25px;
-    box-sizing: border-box;
-
-}
+/* Social media footer */
 
 #social-media-footer {
     position: sticky;
@@ -100,6 +112,17 @@ footer i {
     background-color: #6F8D8Fff;
 
 }
+
+i {
+    padding-top: 15px;
+}
+
+footer i {
+    color: #0C0A15ff;
+
+}
+
+/* Sign up page */
 
 #sign-up-image {
     background: url(../images/shutterstock_2114594954.jpg) no-repeat center center;
@@ -118,18 +141,7 @@ footer i {
     background-color: rgba(148, 182, 165, 0.3)
 }
 
-i {
-    padding-top: 15px;
-}
-
-iframe {
-    width: 100%;
-    height: 25vh;
-}
-
-.home-organizer {
-    height: 45vh;
-}
+/* Gallery */
 
 #gallery-photos {
     clear: both;
@@ -141,3 +153,7 @@ iframe {
 #gallery-photos img {
     width: 100%;
 }
+
+/* media queries for screen sizes */
+
+@media screen and (max-width: 1200px) {}
