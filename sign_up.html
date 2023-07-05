@@ -19,15 +19,14 @@
                 <h1 id="logo">Guardians of the New World</h1>
             </a>
             <ul id="menu">
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="sign-up.html">
-                    <li class="active">Sign Up</li>
-                </a>
-                <a href="gallery.html">
-                    <li>Gallery</li>
-                </a>
+
+                <li> <a href="index.html">Home </a></li>
+
+
+                <li class="active"> <a href="sign_up.html">Sign Up </a></li>
+
+                <li><a href="gallery.html">Gallery </a></li>
+
             </ul>
         </nav>
     </header>
@@ -35,26 +34,24 @@
     <!--Sign up text and Image-->
     <section>
         <div id="sign-up-image"></div>
-    </section>
-    <section>
         <div id="sign-up-text">
             <h2>Brave the Dungeons with us!</h2>
             <p>Sign up and we will either call or email you to see what kind of group would fit you best</p>
         </div>
         <div class="sign-up-form">
-            <form action="POST" class="sign-up-form">
+            <form method="POST" class="sign-up-form" action="https://formdump.codeinstitute.net/">
 
                 <label for="fname">First Name</label>
-                <input type="text">
+                <input type="text" id="fname" required>
 
                 <label for="lname">Last Name</label>
-                <input type="text">
+                <input type="text" id="lname" required>
 
                 <label for="email">Email Address</label>
-                <input type="email">
+                <input type="email" id="email" required>
 
                 <label for="telephone-number">Telephone Number</label>
-                <input type="tel">
+                <input type="tel" id="telephone-number">
 
                 <textarea name="" id="" cols="50" rows="10"
                     placeholder="Do you have any games in particular you are interested in?"></textarea>

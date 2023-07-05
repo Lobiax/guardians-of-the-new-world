@@ -3,6 +3,7 @@
 html,
 body {
     min-height: 100%;
+    margin: 0;
 }
 
 /* Header and Nav bar */
@@ -38,7 +39,7 @@ li {
 
 header {
     height: auto;
-    padding: auto;
+
 }
 
 header a {
@@ -73,7 +74,7 @@ h2 {
     width: 50%;
     font-size: 120%;
     float: left;
-    padding: auto;
+
     margin: auto;
     box-sizing: border-box;
 }
@@ -82,7 +83,7 @@ h2 {
     width: 50%;
     font-size: 120%;
     float: right;
-    padding: auto;
+
     box-sizing: border-box;
 
 }
@@ -158,6 +159,13 @@ footer ul {
 
 /* Gallery */
 
+#gallery-heading {
+    visibility: none;
+    display: absolute;
+}
+
+/*These two following style rules are copied from Love Running */
+
 #gallery-photos {
     clear: both;
     line-height: 0;
@@ -171,6 +179,8 @@ footer ul {
 
 /* media queries for screen sizes */
 
+/* Changes to center the header to fit smaller screens */
+
 @media screen and (max-width: 1200px) {
     nav {
         text-align: center;
@@ -183,13 +193,15 @@ footer ul {
     #menu {
         float: none;
         padding-left: 0px;
-        padding-bottom: auto;
+
         margin: auto;
 
     }
 
 
 }
+
+/* Fits images in gallery to smaller screens */
 
 @media screen and (max-width: 1000px) {
     #gallery-photos {
@@ -200,17 +212,19 @@ footer ul {
     }
 }
 
+/* make index.html easier to parse on small screens */
+
 @media screen and (max-width: 850px) {
     #about-us {
         float: none;
         width: 100%;
-        padding: auto;
+
     }
 
     #location {
         float: none;
         width: 100%;
-        padding: auto;
+
     }
 
     iframe {
