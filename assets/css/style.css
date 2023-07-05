@@ -11,7 +11,7 @@ body {
 #logo {
 
     font-size: 280%;
-    margin: auto;
+    margin: 5px;
     display: inline-block;
 }
 
@@ -160,8 +160,8 @@ footer ul {
 /* Gallery */
 
 #gallery-heading {
-    visibility: none;
-    display: absolute;
+    visibility: hidden;
+    position: absolute;
 }
 
 /*These two following style rules are copied from Love Running */
